@@ -1,0 +1,211 @@
+/*
+ Theme Name : SKIF-POSEIDON
+ Thme URI : http://www.skif-poseidon.com
+ Description : Bootstrap  theme
+ Author : Lotfi Najim
+*/
+
+
+body{
+    margin-bottom : 20px;
+}
+img, object, embed, canvas, video, audio, img {
+    max-width: 100%;
+    height: auto;
+}
+.navbar{
+    padding-left:15px;
+    padding-right:15px;
+}
+.content{
+    padding-top:50px;
+    padding-right:5px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.myconnexion{
+    margin-top : 30px;
+}
+.footer{
+    padding-top : 25px;
+}
+.text{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.row{
+
+    margin-left:auto;
+}
+
+.logoposeidon{
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+/*Citation*/
+.citation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eae9ee;
+}
+.citation h2,
+.citation .h2 {
+    color: inherit;
+}
+.citation p {
+
+    font-size: 18px;
+    font-weight: 200;
+}
+.citation > hr {
+    border-top-color: #afb9d5;
+}
+.container .citation,
+.container-fluid .citation {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
+.citation .container {
+    max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .citation {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .container .citation,
+    .container-fluid .citation {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .citation h1,
+    .citation .h1 {
+        font-size: 63px;
+    }
+
+}
+
+
+.formulaire{
+    border : solid thin red;
+}
+
+
+.contactForm{
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+
+.textareaContact textarea{
+
+    resize: none;
+}
+
+
+/* Instructeur pages */
+@media screen and (max-width: 768px) {
+
+    .thumbnail{
+        width: 200px;
+    }
+}
+
+div.thumbnail{
+    width: 300px;
+}
+
+
+div.thumbnail .col-sm-3 .instructeurThumbnail{
+    width :200px;
+}
+
+.instructeurThumbnail{
+    text-align: justify;
+
+}
+
+.thumbnail{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+/*Contact*/
+input.form-control.contact{
+    align-items: center;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+
+textarea#information.form-control.contact{
+    width: 100%;
+}
+
+div.textareaContact{
+    width: 100%;
+    resize: none;
+}
+
+.btnContact{
+    margin-top : 15px;
+}
+
+/*Single*/
+.panel h2{
+    margin-top:5px;
+}
+
+.panel p{
+    text-align: justify;
+}
+
+/*Admin*/
+
+.adminbar{
+    padding-top: 100px;
+}
+
+
+.textThumbnail{
+    text-align: center;
+
+
+}
+#test {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+
+    box-shadow: none;
+}
+
+
+/*Horaire*/
+body > div.container > div > table > tbody > tr > th {
+    font-size:12px;
+}
+
+body > div.container > div > table > tbody > tr > td.info{
+    font-size:12px;
+    padding-right:30px;
+}
+
+.item{
+    padding-right: 15px;
+}
+
+
+
+

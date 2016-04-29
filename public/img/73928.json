@@ -1,0 +1,35 @@
+{
+    "AuthenticationScheme": {
+        "id": "6e6dfa8d-edd6-4673-a674-0d6a52435d3f",
+        "name": "OINEDCCLDAPScheme",
+        "description": "LDAP Scheme",
+        "authnModuleName": "LDAP",
+        "authnSchemeLevel": "2",
+        "challengeMechanism": "FORM",
+        "ChallengeParameters": {
+            "challengeParameter": [
+                {
+                    "key": "contextType",
+                    "value": "default"
+                },
+                {
+                    "key": "username",
+                    "value": "string"
+                },
+                {
+                    "key": "contextValue",
+                    "value": "/oam"
+                },
+                {
+                    "key": "password",
+                    "value": "sercure_string"
+                },
+                {
+                    "key": "challenge_url",
+                    "value": "/pages/login.jsp"
+                }
+            ]
+        },
+        "challengeRedirectURL": "/oam/server/"
+    }
+}
