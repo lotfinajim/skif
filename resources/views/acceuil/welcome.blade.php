@@ -2,15 +2,14 @@
 
 
 @section('content')
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<!--<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>tinymce.init({ selector:'textarea',
         elementpath: false,
         menubar:false,
-
         statusbar:false,toolbar:false,readonly : 1,visual_table_class:0
 });
 </script>
-
+-->
 
 
 

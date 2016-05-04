@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 
         jQuery.get('instructeurs/' +value, function(data){
 
-          //  jQuery('#img').attr("src", '/'+data.img);
+          //  jQuery('#img').attr("src", '/'+dat    a.img);
             jQuery('#nom').val(data.nom);
             jQuery('#id').val(value);
             jQuery('#prenom').val(data.prenom);

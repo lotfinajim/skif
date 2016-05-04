@@ -27,6 +27,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" >
+
                 <li class="active"><a href="{{route('welcome')}}">Acceuil</a></li>
                 <li><a href="{{route('instructeurs')}}">Instructeurs</a></li>
                 <li><a href="{{route('sections')}}">Sections</a></li>

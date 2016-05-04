@@ -29,7 +29,6 @@ class InstructeursController extends Controller
     }
 
     public function storeInstructeurs(Request $request){
-
         $input = $request->except(['_token']);
         var_dump($input);
         $instructeur = new Instructeurs();
@@ -84,9 +83,15 @@ class InstructeursController extends Controller
     }
 
         public function showInstructeur($id){
-            $instructeur = Instructeurs::findOrNew($id);
-            return redirect('administration/instructeurs')->with('instructeur',$instructeur);
+          return  $instructeur = Instructeurs::findOrNew($id);
         }
+
+        public function show($id){
+            $instructeur = Instructeurs::findOrNew($id);
+            return view('instructeur.show', compact('instructeur'));
+        }
+
+
 
 
 

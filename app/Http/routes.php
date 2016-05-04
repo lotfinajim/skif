@@ -40,6 +40,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('searchUser',['as' => 'searchUser','uses'=>'MembreController@searchUser']);
     Route::get('event',['as' => 'event','uses'=>'AdminController@event']);
     route::get('/articles/{id}',['as' => 'showArticleId','uses'=> 'PagesController@show']);
+    route::get('/instructeurs/{id}',['as' => 'showInst','uses'=> 'InstructeursController@show']);
 
 
     Route::get('administration/message/read', ['as' => 'read', 'uses'=>'ContactController@read']);
@@ -99,12 +100,12 @@ Route::group(['middleware' => ['web']], function () {
         Route::get('administration/instructeurs/{instructeur}',
         [
             'as' =>'showInstructeur',
-            //'uses'=> 'InstructeursController@showInstructeur'
-            'uses'=> function(\App\Instructeurs $instructeur){
+            'uses'=> 'InstructeursController@showInstructeur'
+            /*'uses'=> function(\App\Instructeurs $instructeur){
                     if(Request::ajax()){
                         return $instructeur;
                     }
-                }
+                }*/
         ]);
 
 

@@ -11,7 +11,6 @@ jQuery(document).ready(function(){
                 jQuery('#update').val(data.id);
                 jQuery('#description').val(data.description);
                 jQuery('#posttitle').val(data.post_title);
-
                 jQuery('#categorie option[value='+data.fk_categorie+']').prop('selected', true);
                 jQuery('#status option[value='+data.status+']').prop('selected', true);
 

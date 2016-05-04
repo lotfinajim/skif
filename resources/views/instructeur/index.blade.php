@@ -16,11 +16,8 @@
             <div class="thumbnail" >
                 <img src="{{$instructeur->linkImage}}" alt="achour" style="padding-top:15px">
                 <div class="caption">
-                    <h3 class="text-center"><a  href="">{{$instructeur->nom}}</a></h3>
+                    <h3 class="text-center"><a  href="{{route('showInst', ['id' => $instructeur->id])}}">{{$instructeur->nom}}</a></h3>
                     <hr>
-                    <p class="textThumbnail">
-
-                    </p>
                 </div>
             </div>
         </div>

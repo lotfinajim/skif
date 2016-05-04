@@ -113,7 +113,7 @@ Agenda - Skif
 
             events : "{{route('calendar')}}",
             eventColor: '#4bc6cf',
-            firstDay: m,
+            firstDay: 1,
             defaultView: 'month',
           //  editable: true,
             theme: false
